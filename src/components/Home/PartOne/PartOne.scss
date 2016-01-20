@@ -1,0 +1,56 @@
+.sectionContainer{
+  width: 100%;
+  float: left;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  .videoContainer{
+    width: 100%;
+    min-height: 500px;
+    float: left;
+    overflow: hidden;
+    /*以下是IE部分，使用滤镜*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../public/img/home/home_part_1.png',sizingMethod='scale');
+    .videoTag{
+      display: block;
+      min-width: 100%;
+      min-height: 100%;
+      background: transparent;
+      opacity: 0.95;
+    }
+  }
+  .titleContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    min-height: 500px;
+    height: 100%;
+    z-index: 2;
+    .titleContent{
+      position: relative;
+      top: 25%;
+      margin: 0 auto;
+      width: 70%;
+      min-width: 700px;
+      text-align: center;
+      h1{
+        display: block;
+        margin: 10px 0 15px 0;
+        height: 75px;
+        font-size: 73px;
+        font-weight: 700;
+      }
+      h4{
+        display: block;
+        margin: 0 0 70px 0;
+        height: 20px;
+        font-size: 19px;
+        font-weight: 400;
+        word-spacing: 8px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

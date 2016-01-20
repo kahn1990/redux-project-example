@@ -1,0 +1,78 @@
+.sectionContainer{
+  width: 100%;
+  float: left;
+  position: relative;
+  display: inline-block;
+  .contrastContainer{
+    display: inline-block;
+    width: 100%;
+    .leftBox{
+      float: left;
+      background: #cccccc;
+    }
+    .rightBox{
+      float: right;
+      background: #3fc98c;
+    }
+    .moduleBox{
+      width: 50%;
+      color: #fff;
+      .topTitle{
+        display: inline-block;
+        width: 100%;
+        h1{
+          margin: 53px 0 10px 0;
+          font-size: 40px;
+          text-align: center;
+        }
+        h4{
+          font-size: 14px;
+          text-align: center;
+        }
+      }
+      .bottomContent{
+        display: inline-block;
+        padding: 55px 0 70px 135px;
+        padding-left: 10%;
+        .tdList{
+          float: left;
+          width: 100%;
+          margin-top: 29px;
+          &:nth-of-type(0){
+            margin-top: 0;
+          }
+          .leftImg{
+            display: block;
+            float: left;
+            padding: 0;
+            margin: 0;
+            width: 50px;
+            height: 50px;
+          }
+          .rightWords{
+            display: inherit;
+            padding-left: 136px;
+            width: 100%;
+            height: 50px;
+            h3{
+              float: left;
+              margin: 7px 0 5px 0;
+              width: 100%;
+              height: 16px;
+              line-height: 16px;
+              font-size: 16px;
+            }
+            span{
+              display: block;
+              float: left;
+              width: 100%;
+              height: 14px;
+              line-height: 14px;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

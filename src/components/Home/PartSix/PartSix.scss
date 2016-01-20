@@ -1,0 +1,112 @@
+.sectionContainer{
+  width: 100%;
+  float: left;
+  position: relative;
+  display: inline-block;
+  .therapeuticEffectContainer{
+    display: inline-block;
+    width: 100%;
+    .topTitle{
+      margin: 65px 0 70px 0;
+      text-align: center;
+      font-size: 35px;
+      color: #040a14;
+    }
+    .bottomBox {
+      position: relative;
+      display: block;
+      padding: 0 40px;
+      text-align: center;
+      margin: 0 auto;
+      width: 1300px;
+      overflow: hidden;
+      .tdBox{
+        display: inline-block;
+        margin: 0 auto;
+        width: 1200px;
+        overflow: hidden;
+        .tdBoxList{
+          display: inline-block;
+          margin: 0 auto;
+          width: 3600px;
+          box-sizing: border-box;
+          padding: 0;
+          .color-1{
+            background: #3fc98c;
+            border-bottom: 1px solid #3fc98c;
+          }
+          .tdList{
+            position: relative;
+            float: left;
+            padding: 0 10px 57px 10px;
+            width: 300px;
+            height: 100%;
+            color: #fff;
+            .showImgFull{
+              width: 100%;
+            }
+            .tdContent{
+              display: inline-block;
+              box-sizing: content-box;
+              margin: 10px;
+              left: 0;
+              position: absolute;
+              height: auto;
+              top: 50%;
+              .showImgFull{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 2;
+              }
+              .showImg{
+                position: relative;
+                width: 100%;
+                height: auto;
+                z-index: 3;
+              }
+              .title{
+                position: relative;
+                display: inherit;
+                margin: 20px 0 0 0;
+                font-size: 19px;
+                z-index: 3;
+              }
+              .words{
+                position: relative;
+                margin: 30px 26px 0 26px;
+                display: inherit;
+                font-size: 14px;
+                line-height: 20px;
+                word-spacing: 8px;
+                letter-spacing: 0;
+                text-align: justify;
+                z-index: 3;
+                &.bottom20{
+                  margin: 30px 26px 20px 26px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .tdLeft {
+        position: absolute;
+        left: 10px;
+        top: 40%;
+        width: 30px;
+        height: 60px;
+        cursor: pointer;
+      }
+      .tdRight {
+        position: absolute;
+        right: 10px;
+        top: 40%;
+        width: 30px;
+        height: 60px;
+        cursor: pointer;
+      }
+    }
+  }
+}

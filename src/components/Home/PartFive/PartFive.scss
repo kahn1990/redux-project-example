@@ -1,0 +1,136 @@
+.sectionContainer{
+  width: 100%;
+  float: left;
+  position: relative;
+  display: inline-block;
+  background: #fdcb03;
+  .therapeuticEffectContainer{
+    display: inline-block;
+    width: 100%;
+    .topTitle{
+      margin: 65px 0 70px 0;
+      text-align: center;
+      font-size: 35px;
+      color: #fff;
+    }
+    .bottomBox{
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      .poBox{
+        position: relative;
+        display: inline-block;
+        width: 80%;
+        color: #fff;
+        .contentImg{
+          position: relative;
+          top: 2px;
+          width: 100%;
+        }
+        .po_1_1,
+        .po_2_1,
+        .po_3_1,
+        .po_4_1,
+        .po_5_1{
+          position: absolute;
+          &>span{
+            font-size: 39px;
+            &>i{
+              font-size: 26px;
+            }
+          }
+          h4{
+            margin-top: 10px;
+            font-size: 18px;
+          }
+        }
+        .po_1_2,
+        .po_2_2,
+        .po_3_2,
+        .po_4_2,
+        .po_5_2{
+          position: absolute;
+          &>span{
+            display: inherit;
+            margin-top: 10px;
+            font-size: 16px;
+          }
+        }
+        .po_1_3,
+        .po_2_3,
+        .po_3_3,
+        .po_4_3,
+        .po_5_3{
+          position: absolute;
+          &>h1{
+            font-size: 19px;
+          }
+          &>span{
+            margin-top: 10px;
+            font-size: 16px;
+          }
+        }
+        .po_1_1{
+          top: 14%;
+          left: 16%;
+        }
+        .po_1_2{
+          top: 40%;
+          left: 15%;
+        }
+        .po_1_3{
+          top: 86%;
+          left: 5%;
+        }
+        .po_2_1{
+          top: 10%;
+          left: 31%;
+        }
+        .po_2_2{
+          top: 40%;
+          left: 30%;
+        }
+        .po_2_3{
+          top: 86%;
+          left: 25%;
+        }
+        .po_3_1{
+          top: 24%;
+          left: 47%;
+        }
+        .po_3_2{
+          top: 40%;
+          left: 43%;
+        }
+        .po_3_3{
+          top: 86%;
+          left: 45%;
+        }
+        .po_4_1{
+          top: 17%;
+          left: 63%;
+        }
+        .po_4_2{
+          top: 40%;
+          left: 62%;
+        }
+        .po_4_3{
+          top: 86%;
+          left: 65%;
+        }
+        .po_5_1{
+          top: 10%;
+          left: 79%;
+        }
+        .po_5_2{
+          top: 40%;
+          left: 78%;
+        }
+        .po_5_3{
+          top: 86%;
+          left: 85%;
+        }
+      }
+    }
+  }
+}

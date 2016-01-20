@@ -1,0 +1,51 @@
+.sectionContainer{
+  width: 100%;
+  float: left;
+  position: relative;
+  display: inline-block;
+  margin: 20px 0 70px 0;
+  .earthTitleContainer{
+    margin: 0 auto;
+    width: 95%;
+    min-width: 700px;
+    text-align: center;
+    .topTitle{
+      margin: 61px 0 55px 0;
+      font-size: 38px;
+      word-spacing: 8px;
+      letter-spacing: 1px;
+    }
+    .bottomBox{
+      display: inline-block;
+      .leftImg{
+        display: block;
+        float: left;
+        width: 60%;
+      }
+      .rightContent{
+        float: right;
+        width: 40%;
+        padding-left: 50px;
+        .title{
+          margin: 33px 0 23px 0;
+          padding-left: 10px;
+          border-left: 10px solid #dd3041;
+          color: #dd3041;
+          text-align: left;
+          font-size: 18px;
+          &:nth-of-type(0){
+            margin: 0 0 23px 0;
+          }
+        }
+        .words{
+          display: inline-block;
+          width: 100%;
+          text-align: left;
+          font-size: 16px;
+          word-spacing: 8px;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+}

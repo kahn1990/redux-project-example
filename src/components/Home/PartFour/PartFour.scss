@@ -1,0 +1,123 @@
+.sectionContainer{
+  width: 100%;
+  float: left;
+  position: relative;
+  display: inline-block;
+  .uniqueAdvantageContainer{
+    display: inline-block;
+    width: 100%;
+    .topTitle{
+      margin: 65px 0 70px 0;
+      text-align: center;
+      font-size: 35px;
+    }
+    .bottomBox{
+      display: inline-block;
+      .leftBox{
+        float: left;
+        .titleBox{
+          padding: 0 0 20px 33px;
+        }
+        .words{
+          padding-left: 106px;
+        }
+      }
+      .rightBox{
+        float: right;
+        .titleBox{
+          padding: 0 70px 20px 0;
+        }
+        .words{
+          padding-right: 33px;
+          padding-left: 37px;
+        }
+      }
+      .moduleBox{
+        width: 28%;
+        .tdList{
+          margin-bottom: 100px;
+          &:nth-of-type(0){
+            margin-top: 0;
+          }
+          .titleBox{
+            display: inline-block;
+            width: 100%;
+            height: 45px;
+            .leftImg{
+              display: block;
+              float: left;
+              width: 24px;
+              height: 24px;
+            }
+            .title{
+              float: left;
+              margin: 0 0 0 13px;
+              height: 24px;
+              font-weight: bold;
+              font-size: 18px;
+              &.color_1{
+                color: #49cc92;
+              }
+              &.color_2{
+                color: #fdcb03;
+              }
+              &.color_3{
+                color: #614974;
+              }
+              &.color_4{
+                color: #f98a39;
+              }
+            }
+          }
+          .words{
+            display: block;
+            width: 100%;
+            font-size: 16px;
+            word-spacing: 8px;
+            letter-spacing: 2px;
+            text-align: justify;
+            line-height: 20px;
+          }
+        }
+      }
+      .centerBox{
+        position: relative;
+        float: left;
+        width: 44%;
+        text-align: center;
+        .centerImg{
+          position: relative;
+          width: 80%;
+        }
+        .poImg_1{
+          position: absolute;
+          z-index: 6;
+          top: 22%;
+          left: 20%;
+          width: 10%;
+        }
+        .poImg_2{
+          position: absolute;
+          z-index: 6;
+          top: 22%;
+          left: 70%;
+          width: 10%;
+        }
+        .poImg_3{
+          position: absolute;
+          z-index: 6;
+          top: 66%;
+          left: 20%;
+          width: 10%;
+        }
+        .poImg_4{
+          position: absolute;
+          z-index: 6;
+          top: 70%;
+          left: 66%;
+          width: 10%;
+        }
+      }
+    }
+  }
+}
