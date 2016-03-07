@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} from 'react';
+import React, {Component} from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {load} from 'redux/modules/info';
@@ -8,10 +8,6 @@ import {load} from 'redux/modules/info';
     dispatch => bindActionCreators({load}, dispatch))
 
 export default class PartSix extends Component {
-  static propTypes = {
-    editing: PropTypes.object.isRequired,
-    editStart: PropTypes.func.isRequired
-  };
 
   render() {
     const styles = require('./PartSix.scss');
@@ -27,7 +23,6 @@ export default class PartSix extends Component {
     let costIndex = 8;
     const imgLeftClick = (event) => {
       event.preventDefault();
-      const {editStart} = this.props; // eslint-disable-line no-shadow
       if ( costIndex <= 0 ) {
         return false;
       }
@@ -35,18 +30,15 @@ export default class PartSix extends Component {
       tdListStyle = tdListStyle - 300;
       React.findDOMNode(this.refs.tdListStyle).style.marginLeft = String(tdListStyle) + 'px';
       console.log(tdListStyle );
-      return () => editStart(String(event.id));
     };
     const imgRightClick = (event) => {
       event.preventDefault();
-      const {editStart} = this.props; // eslint-disable-line no-shadow
       if ( costIndex >= 8 ) {
         return false;
       }
       costIndex = costIndex + 1;
       tdListStyle = tdListStyle + 300;
       React.findDOMNode(this.refs.tdListStyle).style.marginLeft = String(tdListStyle) + 'px';
-      return () => editStart(String(event.id));
     };
 
     return (
