@@ -1,3 +1,4 @@
+@import '../../scss/toolsFn';
 .footerLayout{
   display: inline-block;
   float: left;
@@ -22,9 +23,25 @@
       height: 20px;
       line-height: 20px;
       color: #fff;
-      font-size: 16px;
+      @include font-dpr(16px);
       word-spacing: 8px;
       letter-spacing: 2px;
+    }
+  }
+}
+@media (max-width: 750px) {
+  .footerLayout{
+    @include px2rem(padding, 10px, 32px);
+    .leftImg{
+      display: inline-block;
+      width: 50%;
+      padding: 10px 0 20px;
+    }
+    .rightBox{
+      float: left;
+      span{
+        @include font-dpr(14px);
+      }
     }
   }
 }

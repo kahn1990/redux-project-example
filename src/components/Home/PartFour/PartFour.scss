@@ -121,3 +121,24 @@
     }
   }
 }
+@media (max-width: 700px) {
+  .sectionContainer{
+    .uniqueAdvantageContainer{
+      .topTitle{
+        margin: 20px 0 30px 0;
+      }
+      .bottomBox{
+        .centerBox{
+          display: inline-block;
+          width: 100%;
+        }
+        .leftBox{
+          display: none;
+        }
+        .rightBox{
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+.contentBox{
+	width: 100%;
+  float: left;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #eee;
+	.imgBox{
+	  display: block;
+    float: left;
+    overflow: hidden;
+		.imgScreen{
+	    width: 100%;
+	    height: 100%;
+		}
+	}
+	.textContent{
+		display: block;
+    float: left;
+		.textTitleName{
+	    width: 100%;
+	    margin-top: 30px;
+	    display: inline-block;
+	    font-size: 46px;
+	    color: #666;
+	    padding-bottom: 10px;
+	    font-family: 'Montserrat', sans-serif;
+	    font-weight: 700;
+		}
+		.zeroColor{
+	    padding-bottom: 10px;
+	    margin-bottom: 30px;
+	    border-bottom: 1px solid #ccc;
+	    color: #1ECD97;
+	    font-size: 24px;
+	    font-weight: 400;
+	    text-indent: 3px;
+	    font-family: 'Montserrat', sans-serif;
+		}
+		.textWordsDec{
+	    font-size: 20px;
+	    font-weight: 100;
+	    color: #ccc;
+	    margin-bottom: 30px;
+		}
+		.payType{
+		  display: inline-block;
+  		width: 100%;
+			.payAlipay{
+			  margin-left: 20px;
+		    border: 1px solid #00a0e9;
+		    border-radius: 4px;
+		    float: right;
+  			width: 300px;
+				.userPhone{
+			    font-family: inherit;
+			    font-size: 100%;
+			    margin: 0;
+				}
+				.productId{
+			    font-family: inherit;
+			    font-size: 100%;
+			    margin: 0;
+				}
+				.payAlipayDes{
+			    font-size: 18px;
+			    margin-bottom: 0px;
+			    font-weight: 100;
+			    display: block;
+			    float: left;
+			    width: 50%;
+			    text-align: center;
+			    height: 50px;
+			    line-height: 50px;
+			    background: #00a0e9;
+			    border-radius: 4px 0 0 4px;
+			    color: #fff !important;
+				}
+				.btnCart{
+			    display: block;
+			    float: left;
+			    width: 50%;
+			    height: 50px;
+			    border-radius: 0 4px 4px 0;
+			    text-align: center;
+			    color: rgb(255, 255, 255);
+			    background: url("./zhifubao.png") no-repeat 50% 50%;
+			    border: none;
+				}
+			}
+			.payPaypal{
+			  border: 1px solid #003087;
+  			border-radius: 4px;
+  			float: right;
+  			width: 300px;
+				.vertical_align_cell{
+			    display: block;
+			    float: left;
+			    width: 50%;
+			    height: 50px;
+			    border-radius: 0 4px 4px 0;
+			    text-align: center;
+				}
+				.paypalBtn{
+			    width: 100%;
+			    background: url("./paypal.png") no-repeat 50% 50%;
+			    height: 50px;
+			    border: 1px #004444;
+			    font-family: 'Montserrat', sans-serif;
+				}
+				p {
+			    display: block;
+			    float: left;
+			    width: 50%;
+			    text-align: center;
+			    height: 50px;
+			    line-height: 50px;
+			    background: #003087;
+			    border-radius: 4px 0 0 4px;
+			    color: #fff !important;
+			    margin: 0;
+				}
+			}
+		}
+	}
+}

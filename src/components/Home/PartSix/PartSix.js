@@ -1,11 +1,4 @@
 import React, {Component} from 'react';
-import {bindActionCreators} from 'redux';
-import {connect} from 'react-redux';
-import {load} from 'redux/modules/info';
-
-@connect(
-    state => ({info: state.info.data}),
-    dispatch => bindActionCreators({load}, dispatch))
 
 export default class PartSix extends Component {
 

@@ -49,3 +49,24 @@
     }
   }
 }
+@media (max-width: 700px) {
+  .sectionContainer{
+    margin: 20px 0;
+    .earthTitleContainer{
+      min-width: 100%;
+      .topTitle{
+        margin: 20px 0 20px 0;
+      }
+      .bottomBox{
+        .leftImg{
+          padding: 0 20px;
+          width: 100%;
+        }
+        .rightContent{
+          width: 100%;
+          padding: 0 20px;
+        }
+      }
+    }
+  }
+}

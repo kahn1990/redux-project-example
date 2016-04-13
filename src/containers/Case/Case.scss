@@ -1,0 +1,124 @@
+.contentBox{
+  display: inline-block;
+  padding: 60px 0;
+  box-sizing: content-box;
+  .groupContent{
+    margin: 10px auto;
+    .imgScreen{
+      width: 100%;
+    }
+    figure{
+      width: 100%;
+      float: left;
+      overflow: hidden;
+    }
+    figcaption{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      background: #38cedf;
+      opacity: 0;
+      bottom: -50px;
+      margin: 0;
+      padding: 20px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 1em;
+      -webkit-transition: -webkit-transform 0.2s, all 0.2s;
+      transition: transform 0.2s, all 0.2s;
+    }
+  }
+  .CaseDetailBoxTitle{
+    width: 100%;
+    position: relative;
+    height: auto;
+    top: 0;
+    z-index: 1;
+    .imgBox{
+      text-align: center;
+      .imgSrceen {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+      }
+    }
+    .h4Title{
+      width: 100%;
+      margin-top: 30px;
+      display: inline-block;
+      font-size: 26px;
+      color: #666;
+      text-align: center;
+    }
+  }
+  .wordsBox{
+    width: 100%;
+    float: left;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #eee;
+    .newsImage{
+      width: 100%;
+      .imgSrceen{
+        padding-bottom: 50px;
+      }
+    }
+    .wordsTitle{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      margin: 0;
+      color: #666;
+      display: inline-block;
+      width: 100%;
+      padding-bottom: 30px;
+      box-sizing: border-box;
+      .zeroColor{
+        color: #1ECD97;
+      }
+    }
+    .wordsContent{
+      margin-bottom: 30px;
+      color: #666;
+    }
+  }
+  .pagement {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding: 0;
+    li {
+      float: left;
+      border-left: 1px solid #eee;
+      border-right: 1px solid #eee;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      a {
+        float: left;
+        color: #29282e;
+        padding: 10px 20px;
+      }
+    }
+    .prevPage {
+      float: left;
+    }
+    .nextPage {
+      float: right;
+    }
+  }
+  .textCenter{
+    text-align: center;
+    .btnZero {
+      padding: 8px 20px;
+      font-size: 18px;
+      font-weight: 700;
+      font-family: Montserrat;
+      border: 1px solid #38cedf;
+      color: #38cedf;
+    }
+  }
+}

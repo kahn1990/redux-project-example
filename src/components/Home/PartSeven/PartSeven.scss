@@ -1,3 +1,4 @@
+@import '../../../scss/toolsFn';
 .sectionContainer{
   width: 100%;
   float: left;
@@ -45,6 +46,28 @@
       border: 2px solid #3fc98c;
       text-decoration: none;
       cursor: pointer;
+    }
+  }
+}
+@media (max-width: 750px) {
+  .sectionContainer{
+    .joinUsContainer{
+      .topTitle{
+        top: 0;
+        left: 0;
+        color: #fff;
+        text-align: center;
+        @include px2rem(margin-top, 30px, 32px);
+      }
+      .words{
+        @include px2rem(top, 100px, 32px);
+        left: 0;
+        @include px2rem(margin-left, 10px, 32px);
+        color: #fff;
+      }
+      .linkBtn{
+
+      }
     }
   }
 }

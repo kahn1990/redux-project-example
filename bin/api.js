@@ -7,5 +7,5 @@ if (process.env.NODE_ENV !== 'production') {
     return;
   }
 }
-require('../server.babel'); // babel registration (runtime transpilation for node)
+require('../babel/babelServer'); // babel registration (runtime transpilation for node)
 require('../api/api');

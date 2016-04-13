@@ -1,0 +1,13 @@
+.contentBox{
+  width: 100%;
+  float: left;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #eee;
+  .newsImage{
+    width: 100%;
+    .lazy{
+      width: 100%;
+    }
+  }
+}

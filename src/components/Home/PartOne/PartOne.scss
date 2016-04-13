@@ -9,8 +9,7 @@
     min-height: 500px;
     float: left;
     overflow: hidden;
-    /*以下是IE部分，使用滤镜*/
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../public/img/home/home_part_1.png',sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./home_part_1.png',sizingMethod='scale');
     .videoTag{
       display: block;
       min-width: 100%;
@@ -50,6 +49,37 @@
         font-weight: 400;
         word-spacing: 8px;
         letter-spacing: 1px;
+      }
+    }
+  }
+}
+@media (max-width: 700px) {
+  .sectionContainer{
+    background: url('./home_part_1.png') no-repeat center center;
+    background-size: 100%;
+    box-sizing: border-box;
+    .videoContainer{
+      display: none;
+    }
+    .titleContainer{
+      position: static;
+      min-height: 200px;
+      color: #fff;
+      .titleContent{
+        width: 100%;
+        min-width: 100%;
+        text-align: center;
+        h1{
+          line-height: 75px;
+          font-size: 20px;
+        }
+        h4{
+          padding: 0 20px;
+          box-sizing: border-box;
+          height: 40px;
+          line-height: 40px;
+          font-size: 16px;
+        }
       }
     }
   }

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Grid, Col, Row } from 'react-bootstrap';
+import { ContentHeader } from 'components';
 
 export default class About extends Component {
 
@@ -9,15 +10,11 @@ export default class About extends Component {
       title: ['先进技术', '质量保障', '贴心服务'],
       describe: ['硅谷高新科技与传统中医学的完美结合', '专业致力于科学研究的精英医疗团队', '人性化的看护，只为了您满意的笑容']
     };
+
     const styles = require('./About.scss');
     return (
-      <link href="http://apps.bdimg.com/libs/animate.css/3.1.0/animate.min.css" rel="stylesheet">
     <Grid>
-      <Row className={styles.contentHeader}>
-        <Col xs={12} md={12} className={styles.contentHeaderBox}>
-          <h5 className={styles.contentHeaderTitle}>进则救世，退则救民；不能为良相，亦当为良医。</h5>
-        </Col>
-      </Row>
+      <ContentHeader info="进则救世，退则救民；不能为良相，亦当为良医。"/>
       <Row className={styles.contentBase}>
         <Col md={12} className={styles.contentWords}>
           <h2 className={styles.h2}>“</h2>
